@@ -184,9 +184,3 @@ html,body{
 	color: rgb(47, 7, 83);
 	cursor: all-scroll;
 }
-.name:hover{
-	color: rgb(16, 122, 87);
-	font-style: italic;
-	border: #fff;
-	border-radius: 20px;
-}

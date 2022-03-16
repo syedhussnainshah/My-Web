@@ -1,22 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <title>Nosheen Shahzaib</title>
-   <link rel="stylesheet" href="stylesheet.css">
+    <title>Nosheen Shahzaib</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
+
 <body>
     <div class="container">
         <div class="header">
             <div class="logo">
                 <img src="flowers.jpg" alt="">
             </div>
-            <hr>
+            <style>
+                .HeadHr{
+                    width: 50%;
+                }
+            </style>
+            <hr class="HeadHr">
+            <style>
+                .name {
+                    position: relative;
+                }
+
+                .name:hover {
+                    color: rgb(16, 122, 87);
+                    font-style: italic;
+                    border: #fff;
+                    border-radius: 20px;
+
+                }
+
+                .name::before {
+                    content: '';
+                    position: absolute;
+                    height: 2px;
+                    width: 0%;
+                    background: blue;
+                    transition: all 2s linear;
+
+                }
+                .name:hover:before {
+                    content: '';
+                    position: absolute;
+                    height: 2px;
+                    width: 21%;
+                    background: rgb(175, 175, 199);
+
+                }
+            </style>
             <h1 class="name">Nosheen Shahzaib</h1>
             <h2>Web Student</h2>
         </div>
         <div class="about">
             <h2>About me</h2>
-            <p> My name is Nosheen Shahzaib.I am learning web designing and developing by sir Husnain from Carrer institute. My aim is to become a successful web developer and free lancer.
+            <p> My name is Nosheen Shahzaib.I am learning web designing and developing by sir Husnain from Carrer
+                institute. My aim is to become a successful web developer and free lancer.
             </p>
         </div>
         <div class="moto">
@@ -35,4 +74,5 @@
         </div>
     </div>
 </body>
+
 </html>
